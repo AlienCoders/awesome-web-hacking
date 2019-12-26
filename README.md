@@ -11,9 +11,11 @@ Table of Contents
    * [Books](#books)
    * [Documentation](#documentation)
    * [Tools](#tools)
+   * [Cheat Sheets](#cheat-sheets)
    * [Docker](#docker-images-for-penetration-testing)
    * [Vulnerabilities](#vulnerabilities)
    * [Courses](#courses)
+   * [Online Hacking Demonstration Sites](#online-hacking-demonstration-sites)
    * [Labs](#labs)
    * [SSL](#ssl)
    * [Security Ruby on Rails](#security-ruby-on-rails)
@@ -31,20 +33,27 @@ Table of Contents
    * http://www.amazon.com/Basics-Web-Hacking-Techniques-Attack/dp/0124166008/ The Basics of Web Hacking: Tools and Techniques to Attack the Web
    * http://www.amazon.com/Web-Penetration-Testing-Kali-Linux/dp/1782163166/ Web Penetration Testing with Kali Linux
    * http://www.amazon.com/Web-Application-Security-Beginners-Guide/dp/0071776168/ Web Application Security, A Beginner's Guide
+   * https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441/ Hacking: The Art of Exploitation
    * https://www.crypto101.io/ - Crypto 101 is an introductory course on cryptography
    * http://www.offensive-security.com/metasploit-unleashed/ - Metasploit Unleashed
    * http://www.cl.cam.ac.uk/~rja14/book.html - Security Engineering
    * https://www.feistyduck.com/library/openssl-cookbook/ - OpenSSL Cookbook
+   * https://www.manning.com/books/real-world-cryptography - Learn and apply cryptographic techniques.
+
 
 ## Documentation
 
    * https://www.owasp.org/ - Open Web Application Security Project
    * http://www.pentest-standard.org/ - Penetration Testing Execution Standard
    * http://www.binary-auditing.com/ - Dr. Thorsten Schneider’s Binary Auditing
+   * https://appsecwiki.com/ - Application Security Wiki is an initiative to provide all Application security related resources to Security Researchers and developers at one place. 
 
 ## Tools
 
+   * https://spyse.com/ - OSINT search engine that provides fresh data about the entire web, storing all data in its own DB, interconnect finding data and has some cool features. 
    * http://www.metasploit.com/ - World's most used penetration testing software
+   * https://findsubdomains.com - Online subdomains scanner service with lots of additional data. works using OSINT.
+   * https://github.com/bjeborn/basic-auth-pot HTTP Basic Authentication honeyPot.
    * http://www.arachni-scanner.com/ - Web Application Security Scanner Framework
    * https://github.com/sullo/nikto - Nikto web server scanner
    * http://www.tenable.com/products/nessus-vulnerability-scanner - Nessus Vulnerability Scanner
@@ -54,19 +63,21 @@ Table of Contents
    * https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project - Is a multi threaded java application designed to brute force directories and files names on web/application servers.
    * https://www.owasp.org/index.php/ZAP - The Zed Attack Proxy is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications.
    * https://github.com/tecknicaltom/dsniff - dsniff is a collection of tools for network auditing and penetration testing.
-   * https://github.com/DanMcInerney/dnsspoof - DNS spoofer. Drops DNS responses from the router and replaces it with the spoofed DNS response
+   * https://github.com/WangYihang/Webshell-Sniper - Manage your webshell via terminal.
+   * https://github.com/DanMcInerney/dnsspoof - DNS spoofer. Drops DNS responses from the router and replaces it with the spoofed DNS response
    * https://github.com/trustedsec/social-engineer-toolkit - The Social-Engineer Toolkit (SET) repository from TrustedSec
    * https://github.com/sqlmapproject/sqlmap - Automatic SQL injection and database takeover tool
    * https://github.com/beefproject/beef - The Browser Exploitation Framework Project
    * http://w3af.org/ - w3af is a Web Application Attack and Audit Framework
    * https://github.com/espreto/wpsploit - WPSploit, Exploiting Wordpress With Metasploit
-   * https://github.com/RUB-NDS/WS-Attacker - WS-Attacker is a modular framework for web services penetration testing
-   * http://n0p.net/penguicon/php_app_sec/mirror/xss.html - XSS cheatsheet
+   * https://github.com/WangYihang/Reverse-Shell-Manager - Reverse shell manager via terminal.
+   * https://github.com/RUB-NDS/WS-Attacker - WS-Attacker is a modular framework for web services penetration testing
    * https://github.com/wpscanteam/wpscan - WPScan is a black box WordPress vulnerability scanner
    * http://sourceforge.net/projects/paros/ Paros proxy
    * https://www.owasp.org/index.php/Category:OWASP_WebScarab_Project Web Scarab proxy
    * https://code.google.com/p/skipfish/ Skipfish, an active web application security reconnaissance tool
    * http://www.acunetix.com/vulnerability-scanner/ Acunetix Web Vulnerability Scanner
+   * https://cystack.net/ CyStack Web Security Platform
    * http://www-03.ibm.com/software/products/en/appscan IBM Security AppScan
    * https://www.netsparker.com/web-vulnerability-scanner/ Netsparker web vulnerability scanner
    * http://www8.hp.com/us/en/software-solutions/webinspect-dynamic-analysis-dast/index.html HP Web Inspect
@@ -76,6 +87,7 @@ Table of Contents
    * http://www.websecurify.com Websecurify
    * http://sourceforge.net/projects/grendel/ Grendel-scan
    * https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project DirBuster
+   * https://tools.kali.org/web-applications/gobuster Directory/file and DNS busting tool written in Go
    * http://www.edge-security.com/wfuzz.php Wfuzz
    * http://wapiti.sourceforge.net wapiti
    * https://github.com/neuroo/grabber Grabber
@@ -83,23 +95,14 @@ Table of Contents
    * http://websecuritytool.codeplex.com Watcher passive web scanner
    * http://xss.codeplex.com x5s XSS and Unicode transformations security testing assistant
    * http://www.beyondsecurity.com/avds AVDS Vulnerability Assessment and Management
-   * https://buguroo.com bugBlast
-   * http://www.contrastsecurity.com Contrast
-   * http://www.gamasec.com/Gamascan.aspx GamaScan
    * http://www.golismero.com Golismero
-   * https://www.trustwave.com/Products/Application-Security/App-Scanner-Family/ Trustwave App Scanner
    * http://www.ikare-monitoring.com IKare
-   * https://www.indusface.com/index.php/products/indusguard-web IndusGuard Web
    * http://www.nstalker.com N-Stalker X
    * https://www.rapid7.com/products/nexpose/index.jsp Nexpose
    * http://www.rapid7.com/products/appspider/ App Spider
    * http://www.milescan.com ParosPro
    * https://www.qualys.com/enterprises/qualysguard/web-application-scanning/ Qualys Web Application Scanning
    * http://www.beyondtrust.com/Products/RetinaNetworkSecurityScanner/ Retina
-   * https://www.whitehatsec.com/offerings.html Sentinel
-   * http://www.tripwire.com/it-security-software/enterprise-vulnerability-management/web-application-vulnerability-scanning/ Tripwire Web App 360
-   * https://www.parasoft.com/product/soatest/ SOAtest
-   * https://www.trustwave.com/Services/SpiderLabs-Services/Vulnerability-Management/ Trustkeeper
    * https://www.owasp.org/index.php/OWASP_Xenotix_XSS_Exploit_Framework Xenotix XSS Exploit Framework
    * https://github.com/future-architect/vuls Vulnerability scanner for Linux, agentless, written in golang.
    * https://github.com/rastating/wordpress-exploit-framework A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.
@@ -112,6 +115,21 @@ Table of Contents
    * https://github.com/lalithr95/fuzzapi Fuzzapi is a tool used for REST API pentesting
    * https://github.com/owtf/owtf Offensive Web Testing Framework (OWTF)
    * https://github.com/nccgroup/wssip Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa.
+   * https://github.com/tijme/angularjs-csti-scanner Automated client-side template injection (sandbox escape/bypass) detection for AngularJS (ACSTIS).
+   * https://reshift.softwaresecured.com A source code analysis tool for detecting and managing Java security vulnerabilities.
+   * https://encoding.tools Web app for transforming binary data and strings, including hashes and various encodings. GPLv3 offline version available.
+   * https://gchq.github.io/CyberChef/ A "Cyber Swiss Army Knife" for carrying out various encodings and transformations of binary data and strings.
+   * https://github.com/urbanadventurer/WhatWeb WhatWeb - Next generation web scanner
+   * https://www.shodan.io/ Shodan - The search engine for find vulnerable servers
+   * https://github.com/WangYihang/Webshell-Sniper A webshell manager via terminal
+   
+## Cheat Sheets
+
+   * http://n0p.net/penguicon/php_app_sec/mirror/xss.html - XSS cheatsheet
+   * https://highon.coffee/blog/lfi-cheat-sheet/ - LFI Cheat Sheet
+   * https://highon.coffee/blog/reverse-shell-cheat-sheet/ - Reverse Shell Cheat Sheet
+   * https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/ - SQL Injection Cheat Sheet
+   * https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/ - Path Traversal Cheat Sheet: Windows
    
 ## Docker images for Penetration Testing
 
@@ -139,7 +157,7 @@ Table of Contents
    * http://www.securityfocus.com/ - Since its inception in 1999, SecurityFocus has been a mainstay in the security community.
    * http://packetstormsecurity.com/ - Global Security Resource
    * https://wpvulndb.com/ - WPScan Vulnerability Database
- 
+
 ## Courses
 
    * https://www.elearnsecurity.com/course/web_application_penetration_testing/ eLearnSecurity Web Application Penetration Testing
@@ -151,6 +169,16 @@ Table of Contents
    * http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/ - FSU - Offensive Computer Security
    * http://www.cs.fsu.edu/~lawrence/OffNetSec/ - FSU - Offensive Network Security
    * http://www.securitytube.net/ - World’s largest Infosec and Hacking Portal.
+   * https://www.hacker101.com/ - Free class for web security by [Hackerone](https://www.hackerone.com)
+   
+## Online Hacking Demonstration Sites
+
+   * http://testasp.vulnweb.com/ - Acunetix ASP test and demonstration site
+   * http://testaspnet.vulnweb.com/ - Acunetix ASP.Net test and demonstration site
+   * http://testphp.vulnweb.com/ - Acunetix PHP test and demonstration site
+   * http://crackme.cenzic.com/kelev/view/home.php - Crack Me Bank
+   * http://zero.webappsecurity.com/ - Zero Bank
+   * http://demo.testfire.net/ - Altoro Mutual
 
 ## Labs
 
@@ -164,12 +192,16 @@ Table of Contents
    * https://github.com/paralax/lfi-labs - small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulns
    * https://hack.me/ - Build, host and share vulnerable web apps in a sandboxed environment for free
    * http://azcwr.org/az-cyber-warfare-ranges - Free live fire Capture the Flag, blue team, red team Cyber Warfare Range for beginners through advanced users. Must use a cell phone to send a text message requesting access to the range.
-
+   * https://github.com/adamdoupe/WackoPicko - WackoPicko is a vulnerable web application used to test web application vulnerability scanners.
+   * https://github.com/rapid7/hackazon - Hackazon is a free, vulnerable test site that is an online storefront built with the same technologies used in today’s rich client and mobile applications.
+   * https://github.com/RhinoSecurityLabs/cloudgoat - Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool
+   * https://www.hackthebox.eu/ - Hack The Box is an online platform allowing you to test and advance your skills in cyber security.
 
 
 ## SSL
 
    * https://www.ssllabs.com/ssltest/index.html - This service performs a deep analysis of the configuration of any SSL web server on the public Internet.
+   * http://certdb.com/ - SSL/TLS data provider service. Collect the data about digital certificates - issuers, organisation, whois, expiration dates, etc... Plus, has handy filters for convenience. 
    * https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html - Strong SSL Security on nginx
    * https://weakdh.org/ - Weak Diffie-Hellman and the Logjam Attack
    * https://letsencrypt.org/ - Let’s Encrypt is a new Certificate Authority: It’s free, automated, and open.
